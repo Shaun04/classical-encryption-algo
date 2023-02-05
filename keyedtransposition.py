@@ -1,6 +1,3 @@
-from multiprocessing.sharedctypes import Value
-
-
 def encryption(key_var):
     text = str(input("Enter the text: "))
     text_list = [x for x in text]
@@ -14,8 +11,6 @@ def encryption(key_var):
             text_list.append(" ") 
 
     #adding key to the list
-    red = len(text_list) / len(key) - 1
-
     for i in key:
         if len(key) == len(text_list):
             break

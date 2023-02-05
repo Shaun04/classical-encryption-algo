@@ -7,8 +7,7 @@ This repository contains my implementation of the classical encryption algorithm
 
 
 ## Attacks Added :crossed_swords:
-
-None yet
+1. Keyed Transposition algorithm: Brute Force
   
 
 ## Contribution :people_hugging:
